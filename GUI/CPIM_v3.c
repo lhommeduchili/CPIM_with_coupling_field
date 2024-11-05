@@ -201,8 +201,7 @@ double compute_energy(int x, int y)
             neighborhood_configuration -= 1;
         }
     }
-    energy = (double) spin * (s.J * neighborhood_configuration - s.B);
-    energy *=  s.coupling_field[x][y];
+    energy = (double) spin * (s.J * neighborhood_configuration * s.coupling_field[x][y] - s.B);
     
     return energy;
 }
