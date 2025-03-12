@@ -488,7 +488,7 @@ static void on_button_show_about(GtkWidget *widget, gpointer data)
     GdkPixbuf *pixbuf = gdk_pixbuf_new_from_file("X-Institute_logo_small.tif", NULL);
     GtkWidget *dialog = gtk_about_dialog_new();
     gtk_about_dialog_set_program_name(GTK_ABOUT_DIALOG(dialog), "Contact Process Ising Model App");
-    gtk_about_dialog_set_version(GTK_ABOUT_DIALOG(dialog), "version 2.0, 2024");
+    gtk_about_dialog_set_version(GTK_ABOUT_DIALOG(dialog), "version 3.0, 2024");
     gtk_about_dialog_set_copyright(GTK_ABOUT_DIALOG(dialog), "Open-Source Software");
     gtk_about_dialog_set_comments(GTK_ABOUT_DIALOG(dialog), "The Contact Process Ising Model (CPIM).");
     gtk_about_dialog_set_website(GTK_ABOUT_DIALOG(dialog), "https://github.com/jekeymer/Contact-Process-Ising-Model/wiki");
